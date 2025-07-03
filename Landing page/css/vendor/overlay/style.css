@@ -1,0 +1,259 @@
+
+/* ============================================================
+  GLOBAL
+============================================================ */
+.effects {
+  padding-left: 15px;
+}
+.effects .img {
+  position: relative;
+  float: left;
+  margin-bottom: 5px;
+  width: 100%;
+  overflow: hidden;
+}
+.effects .img:nth-child(n) {
+  margin-right: 5px;
+}
+.effects .img:first-child {
+  margin-left: -15px;
+}
+.effects .img:last-child {
+  margin-right: 0;
+}
+.effects .img img {
+  display: block;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(255, 186, 39, 0.3);
+  overflow: hidden;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+a.close-overlay {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  background-color: #000;
+  cursor: pointer;
+}
+a.close-overlay.hidden {
+  display: none;
+}
+
+a.expand, a.expand-text {
+  display: block;
+  position: absolute;
+  z-index: 100;
+  width: 60px;
+  height: 60px;
+  border: solid 5px #fff;
+  text-align: center;
+  color: #fff;
+  line-height: 40px;
+  font-weight: 400;
+  font-size: 24px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  border-radius: 30px;
+}
+a.expand-text {
+	width:100%;
+	border:0px;
+}
+a.expand-text span {
+	font-size:18px;
+	font-style:italic;
+}
+
+
+/* ============================================================
+  EFFECT 3 - SLIDE IN LEFT
+============================================================ */
+#grid-1 .overlay,
+ #grid .overlay{
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+}
+#grid-1 .overlay a.expand, #grid .overlay a.expand{
+  top: 0;
+  bottom: 0;
+  left: 12%;
+  margin: auto 0 auto -30px;
+}
+#grid-1 .overlay a.expand
+{
+  top: 33%;
+  left: 12%;
+  margin:0 -28px;
+}
+#grid-1 .img.hover .overlay,
+ #grid .img.hover .overlay{
+  width: 100%;
+}
+
+#grid .overlay a.extend-icon, #grid .overlay a.extend-icon-two {
+	left:35%;
+	background-color:rgba(255,186,39,0.4);
+	border:0px;
+	padding-top:9px;
+	font-size:20px;
+}
+
+#grid-1 .overlay a.extend-icon, #grid-1 .overlay a.extend-icon-two{
+	left:29%;
+	background-color:rgba(255,186,39,0.4);
+	border:0px;
+	padding-top:9px;
+	font-size:20px;
+}
+
+#grid-1 .overlay a.expand-1.extend-icon, #grid-1 .overlay a.expand-1.extend-icon-two {
+	left:44%;
+	background-color:rgba(255,186,39,0.4);
+	border:0px;
+	padding-top:9px;
+	font-size:20px;
+}
+
+#grid-1 .overlay a.extend-icon-two,
+#grid .overlay a.extend-icon-two {
+	left:60%;
+}
+
+#grid-1 img,
+#grid img
+{
+	width:100%;
+}
+
+
+
+
+
+/* Media Queries */
+
+
+
+@media only screen and (max-width: 1100px) {
+  .effects {
+    padding-left: 5px;
+  }
+  .effects .img {
+    width: 100%;
+  }
+  .effects .img:nth-child(n) {
+    margin-right: 5px;
+  }
+  .effects .img:first-child {
+    margin-left: 0;
+  }
+  .effects .img:nth-child(2n-1) {
+    margin-left: -5px;
+  }
+  .effects .img:nth-child(2n) {
+    margin-right: 0;
+  }
+  .effects .img:last-child {
+    margin-right: 0;
+  }
+}
+@media(max-width:991px) and (min-width:768px)
+{
+	#grid-1 .overlay a.extend-icon-two,
+	#grid .overlay a.extend-icon-two 	{
+		left:63%;
+	}	
+	#grid-1 .overlay a.extend-icon,
+	#grid .overlay a.extend-icon
+	{
+		left:32%;
+	}
+	a.expand, a.expand-text 	{
+		font-size:18px;
+		line-height:30px;
+	}
+	
+	
+	#grid-1 .overlay a.extend-icon, #grid-1 .overlay a.extend-icon-two,
+	#grid .overlay a.extend-icon, #grid .overlay a.extend-icon-two  {
+		padding-top:15px;
+	}
+}
+
+
+@media only screen and (max-width: 520px) {
+  .effects .img {
+    width: 100%;
+  }
+  .effects .img:nth-child(n) {
+    margin-right: 0;
+  }
+  .effects .img:first-child {
+    margin-left: 0;
+  }
+  .effects .img:nth-child(2n-1) {
+    margin-left: 0;
+  }
+  .effects .img:nth-child(2n) {
+    margin-right: 0;
+  }
+  .effects .img:last-child {
+    margin-right: 0;
+  }
+  .effects .img img {
+    margin: 0 auto;
+  }
+  
+}
+
+
+@media only screen and (min-width: 250px) and (max-width: 380px) { 	
+
+	#grid-1 .overlay a.expand-1.extend-icon, #grid-1 .overlay a.expand-1.extend-icon-two {
+		left:27%;	
+	}
+}
+
+
+@media only screen and (min-width: 381px) and (max-width: 767px) { 	
+
+	#grid-1 .overlay a.expand-1.extend-icon, #grid-1 .overlay a.expand-1.extend-icon-two {
+		left:38%;	
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 	
+
+	#grid-1 .overlay a.extend-icon {
+		left: 27%;
+	}
+	#grid-1 .overlay a.extend-icon-two{
+		left: 72%;
+	}
+}

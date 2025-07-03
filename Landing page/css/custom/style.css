@@ -1,0 +1,2222 @@
+
+/*========================================== 1.GLOBAL CSS START ===========================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+
+body {
+  background: #ffffff;
+  color: #666666;
+  font-family: 'Lato', sans-serif , Arial , Verdana , 'Trebuchet MS';
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+a {
+  outline: none !important;
+  text-decoration: none !important;
+}
+
+p {
+  color: #666666;
+  margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: #333333;  
+}
+
+h1 {	
+	font-size:40px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size:30px;	
+	margin-top:0;
+}
+
+h3 {
+	font-size:25px;	
+	margin-top:0;	
+}
+
+h4 {
+	font-size:18px;	
+	line-height:26px;	
+}
+
+h5 {
+	font-size:16px;	
+}
+
+h2,
+h3,
+h4,
+h5 {	
+	font-weight:500;	
+	text-transform:uppercase;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Ubuntu', serif;	
+	letter-spacing:1px;	
+}
+
+.text-center {
+	text-align:center;
+}
+
+.text-left {
+	text-align:left;
+}
+
+.text-right {
+	text-align:right;
+}
+
+/*========================================== 1.GLOBAL CSS END ===========================================*/
+
+/*========================================== 2.COMMON CSS START ===========================================*/
+
+.section-padding {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.happy-travel-div {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.section-1-bg {
+  background-color:#ffffff;
+}
+
+.section-2-bg {
+  background-color:#f7f7f7;
+}
+
+.section-3-bg {
+  background-color:#333333;
+}
+
+.section-4-bg {
+  background-color:#fea501;
+}
+
+.heading-div {
+	padding-bottom:50px;
+}
+
+.heading-div > p {
+	font-size:16px;
+    letter-spacing:0.5px;
+    padding-top:12px;
+}
+
+.slider-image-3,
+.slider-image-2,
+.slider-image-1,
+.subscribe-section,
+.counter-section,
+.header-image-3,
+.header-image-2,
+.header-image-1 {	
+	background-position: center center;
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+
+.bottom-space {
+	padding-bottom:30px;
+}
+
+.no_padding {
+	padding:0;
+}
+
+.no-row {
+	margin:0;
+}
+
+.readmore:hover {
+	color:#ffba27;
+}
+
+.news-readmore {
+	display:inline-block;
+	position: relative;	
+}
+
+.news-readmore:hover {
+	color:#ffba27;
+	display:inline-block;
+	position: relative;	
+}
+
+.news-readmore:before {
+	position:absolute;	
+	font-size:13px;
+	content: "\f104";	
+	font-family: "FontAwesome" !important;		 
+	-moz-transition:0.3s all ease;
+	-o-transition:0.3s all ease;
+	-webkit-transition:0.3s all ease;
+	transition:0.3s all ease;
+	opacity:0;	
+}
+
+.news-readmore:before{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+}
+
+.news-readmore:after {
+	position:absolute;	
+	font-size:13px;
+	content: "\f105";	
+	font-family: "FontAwesome" !important;		
+	-moz-transition:0.3s all ease;
+	-o-transition:0.3s all ease;
+	-webkit-transition:0.3s all ease;
+	transition:0.3s all ease;
+	opacity:0;		
+}
+
+.news-readmore:after{
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter:alpha(opacity=0);
+}
+
+.news-readmore:hover:before {
+    left: -14px;	
+    opacity: 1;
+}
+
+.news-readmore:hover:after {  
+	right: -14px;	
+    opacity: 1;
+}
+
+.readmore > img {
+    padding-bottom: 3px;
+}
+
+.intro-content {
+	margin:0 auto;
+	width:80%;
+}
+
+.client-image {
+	text-align:center;
+}
+
+.star,
+.offer-date,
+.destination-col-1 ul,
+.benefits-col ul,
+.happy-travel ul,
+.testi-author > ul,
+.footer-div-3 ul,
+.footer-div-2 ul,
+.address-1 ul,
+.social-icons,
+.contact-us-div-3 ul,
+.multi-div {
+	padding-left:0;
+}
+
+.offer-date  li,
+.start-from,
+.offer-price,
+.destination-col-1 li p,
+.special-offer-div p,
+.counter-value,
+.price-value,
+.pt-date,
+.pt-days,
+.rate-tour-col p,
+.footer-row-2 p,
+.address-3,
+.contact-col p,
+.contact-col-1 p,
+.copyright-1 > p,
+.copyright-2 > p,
+.copyright-3 > p,
+.address-1 p,
+.multi-div  li a,
+.news-readmore,
+.readmore,
+.navbar-default .navbar-nav > li > a,
+.counter-title,
+.packages-col-1 p,
+.dest-place,
+.dest-price {	
+	letter-spacing:1px;		
+}
+
+.multi-div  li a,
+.news-readmore,
+.readmore,
+.navbar-default .navbar-nav > li > a,
+.btn,
+.pt-btn,
+.counter-title,
+.dest-place,
+.dest-price {		
+	text-transform:uppercase;
+}
+
+.packages-col-1 p .strike-value,
+.email-2 p a {
+	color:#666666;	
+}
+
+.advisor-col:hover h4,
+.header-div-5 p,
+.header-div-5 h1,
+.slider-image-3 p,
+.header-div-3 p,
+.slider-image-3 h1,
+.header-div-3 h1,
+.slider-image-2 p,
+.header-div-2 p,
+.slider-image-2 h1,
+.header-div-2 h1,
+.footer-div-1 h3,
+.footer-div-1 h5,
+.footer-div-1 p,
+.pt-days,
+.pt-date,
+.price-value,
+.schedule-content:hover p,
+.schedule-content:hover h5,
+.schedule-head h4,
+.counter-title,
+.counter-value,
+.address-1 p a {
+	color:#ffffff;	
+}
+
+.awesome-col,
+.offer-col,
+.footer-section-2,
+.latest-news-col,
+.advisor-col {
+	background-color:#ffffff;
+}
+
+.news-readmore,
+.readmore,
+.rate-tour-col p,
+.multi-div  li a,
+.dest-price,
+.packages-col-1 p span,
+.special-offer-div p,
+.awesome-col-3 h2,
+.offer-price {
+	color:#ffba27;
+}
+
+.offer-date  li,
+.packages-col-1 p strike,
+.packages-col-1 p span,
+.counter-title,
+.special-offer-div p,
+.offer-price,
+.start-from {
+	font-weight:700;
+}
+
+.news-readmore,
+.readmore,
+.pt-days,
+.offer-date  li,
+.start-from {
+	font-size:13px;	
+}
+
+.dest-price,
+.pt-date,
+.special-offer-div p {	
+	font-size:18px;	
+}
+
+.news-readmore,
+.readmore,
+.rate-tour-col p,
+.pt-date,
+.price-value,
+.dest-price,
+.counter-value {	
+	font-weight:900;
+}
+
+/*========================================== 2.COMMON CSS END ===========================================*/
+
+/*========================================== 3.THEME COLOR START ============================================*/
+
+.navbar-default .navbar-nav > li > a.active,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover	{
+	background-color: none;
+	color: #fea501 !important;	
+	border-bottom: 1px dotted #fea501;
+}
+
+.menu  a{   
+	transition: 0.3s ease; 
+}
+
+.menu a:hover {
+	color: #fea501 !important;	
+	border-bottom: 1px dotted #fea501;  
+}
+
+/*========================================== 3.THEME COLOR ENDS ============================================*/
+
+/*========================================== 4.NAVIGATION START ===========================================*/
+
+.navbar-default .navbar-nav > li > a {	
+	font-size: 13px;
+	font-weight:600;	
+	padding: 7px 0;	 
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .open > a {
+	background-image: none;
+	box-shadow: none;
+	background-color: unset;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+	text-shadow: none;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+	background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color:#666666 !important;
+}
+
+.navbar-default {
+	background-color:#f7f7f7;
+	background-image: none;
+	border: 0px;
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+.navbar-nav {
+	padding-top:21px;
+}
+
+.logo-image {
+	float:left;
+	padding-bottom:10px;
+	padding-top:10px;
+}
+
+.menu {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.bs-example-navbar-collapse-1 {
+	background-color:#f7f7f7;	
+}
+
+.pagescroll {
+	color:#666666;
+}
+
+/*========================================== 4.NAVIGATION END ===========================================*/
+
+/*================================================ 5.BUTTON STRAT =========================================*/
+
+.btn {
+	background-color:#fea501;
+	border: none;
+	border-radius: 0;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: inherit;	
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:0.5px;
+	outline: none;
+	padding: 10px 20px;
+	position: relative;	
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;	
+}
+
+.btn.header-btn-3,
+.btn.header-btn-2,
+.btn.header-btn-1 {
+	background-color:#ffba27;	
+}
+
+.btn.header-btn-3:hover,
+.btn.header-btn-2:hover,
+.btn.header-btn-1:hover {
+	color:#ffffff;
+	-webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.btn:focus,
+.btn:hover { 
+	color: #ffffff;
+	-webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.btn.btn-1 {
+	background-color:#ffffff;
+	color:#fea501;
+}
+
+.pt-btn {
+	background-color:#fea501;
+	border: none;
+	border-radius: 0;
+	color: #ffffff;
+	cursor: pointer;
+	font-family: inherit;	
+	font-size:13px;
+	font-weight:600;
+	letter-spacing:0.5px;
+	outline: none;
+	padding: 10px 20px;
+	position: relative;	
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;	
+}
+
+/*================================================ 5.BUTTON ENDS ==========================================*/
+
+/*======================================= 6.SECTION : HEADER START ========================================*/
+
+.header-image-1 {
+	background-image: url("../../images/1500x970.jpg");	
+}
+
+.header-image-2 {
+	background-image: url("../../images/1500x1040.jpg");	
+}
+
+.header-image-3 {
+	background-image: url("../../images/1500x980.jpg");		
+}
+
+.header-image-5 {
+	background-image: url("../../images/1500x980x1.jpg");		
+}
+
+.header-image-1,
+.header-image-2,
+.header-image-3,
+.header-div-4 {
+	padding-bottom:250px;
+	padding-top:250px;	
+}
+
+.slider-image-1 {
+	background-image: url("../../images/slider-1.jpg");		
+}
+
+.slider-image-2 {
+	background-image: url("../../images/slider-2.jpg");		
+}
+
+.slider-image-3 {
+	background-image: url("../../images/slider-3.jpg");		
+}
+
+.slider-image-1 h1,
+.header-div-1 h1 {
+	color:#333333;	
+	letter-spacing:3px;
+	margin-bottom:25px;	
+}
+
+.header-div-5 p,
+.slider-image-2 p,
+.header-div-2 p,
+.slider-image-1 p,
+.header-div-1 p {
+	font-weight:700;
+	letter-spacing:0.5px;
+	line-height:28px;
+	margin:0 auto;		
+}
+
+.header-div-5 p,
+.header-div-2 p,
+.header-div-1 p {	
+	width:80%;
+}
+
+.slider-image-2 p,
+.slider-image-1 p {		
+	width:55%;
+}
+
+.header-btn-3,
+.header-btn-2,
+.header-btn-1 {
+	margin-top:30px;
+}
+
+.header-div-5 h1,
+.slider-image-3 h1,
+.header-div-3 h1,
+.slider-image-2 h1,
+.header-div-2 h1 {	
+	letter-spacing:3px;
+	margin-bottom:25px;	
+}
+
+.slider-image-3 p,
+.header-div-3 p {	
+	font-weight:700;
+	letter-spacing:0.5px;
+	line-height:28px;		
+	width:50%;
+}
+
+.header-intro {
+	font-size:25px;
+}
+
+#owl-demo3 .owl-controls{
+	position:relative;
+	margin-top:-70px;
+	margin-bottom:30px;
+}
+
+.video-section .pattern-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+	width:100%;
+	height:100%;
+	padding-top:250px;
+	padding-bottom:250px;
+}
+
+.buttonBar {
+	display:none;
+}
+
+/*============================================= 6.SECTION : HEADER END ======================================================*/
+
+/*============================================= 7.SECTION : WELCOME TO HOLIDAY START ===============================================*/
+
+.welcome-div img {
+	margin:0 auto;
+	padding-bottom:30px;
+	text-align:center;	
+}
+
+.welcome-div p {	
+	width:100%;
+}
+
+/*============================================= 7.SECTION : WELCOME TO HOLIDAY END ===============================================*/
+
+/*============================================= 8.SECTION : BEST OFFER START ===============================================*/
+
+.offer-date  li {	
+	display:inline-block;	
+	list-style:none;
+	margin-right:10px;
+}
+
+.star  li {	
+	display:inline-block;	
+	list-style:none;
+	margin-right:5px;
+}
+
+.offer-date {
+	float:left;
+}
+
+.star {
+	float:right;
+}
+
+.offer-price {	
+	font-size:30px;	
+}
+
+.offer-col-1 {
+	padding-top:20px;
+}
+
+.offer-price-div {
+	float:left;
+}
+
+.offer-price-div-1 {
+	float:right;
+	padding-top:8px;
+}	
+
+.offer-col  h4 {
+	padding-top:10px;
+}
+
+.offer-col {	
+	padding-bottom:80px;
+}
+
+.offer-padding {
+	padding-left:15px;
+	padding-right:15px;
+}
+
+/*SERVICES*/
+.services-col  .col-sm-2{
+	padding:0;
+	width:70px;
+}
+
+.services-col h4 {
+	margin-top:0;
+}
+
+.services-row-2 {
+	margin-top:25px;
+}
+
+/*============================================= 8.SECTION : BEST OFFER END ===============================================*/
+
+/*============================================= 9.SECTION : AWESOME TRAVEL START ===============================================*/
+
+.awesome-col {	
+	padding-bottom:30px;
+}
+
+.awesome-padding {
+	padding:0 20px;
+}
+
+.awesome-col p {
+	padding-bottom:10px;
+	padding-top:15px;
+}
+
+.awesome-padding {
+	padding-top:20px;
+}
+
+.awesome-col-4 h2,
+.awesome-col-3 h2,
+.awesome-col-2 h2,
+.awesome-col-1 h2 {	
+	font-size:35px;	
+	font-weight:700;
+	padding-bottom:5px;
+}
+
+.awesome-col-1 h2 {
+	color:#44b5f7;	
+}
+
+.awesome-col-2 h2 {
+	color:#9dd228;	
+}
+
+.awesome-col-4 h2 {
+	color:#44b5f7;	
+}
+
+.price-border-4,
+.price-border-3,
+.price-border-2,
+.price-border-1  {	
+	margin:0 auto;
+	width:70%;
+}
+
+.price-border-1  {
+	border-bottom:3px solid #44b5f7;	
+}
+
+.price-border-2  {
+	border-bottom:3px solid #9dd228;	
+}
+
+.price-border-3  {
+	border-bottom:3px solid #ffba27;	
+}
+
+.price-border-4  {
+	border-bottom:3px solid #44b5f7;	
+}
+
+
+#awesome-travel .fade   {	
+	opacity: 1;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+#awesome-travel .fade:hover{
+	-webkit-transform: scale(1.03);
+	-moz-transform:scale(1.03);
+	transform: scale(1.03);
+	opacity: 1;
+}
+
+ #awesome-travel:hover .fade:not(:hover) {
+	opacity: 0.4;
+}
+
+/*============================================= 9.SECTION : AWESOME TRAVEL END ===============================================*/
+
+/*============================================= 10.SECTION : YOUR DESTINATION START ===============================================*/
+
+.destination-col-1 li {
+	display:table-cell;
+	list-style:none;	
+}
+
+.destination-col-1 li img {
+	padding-right:10px;
+}
+
+.destination-col-1 li p {
+	font-size:14px;	
+}
+
+.destination-col h4 {
+	margin-top:0;
+	text-align:center;
+}
+
+.destination-col h4 a {
+	color:#333333;
+}
+
+.destination-row {
+	margin:0 auto;
+	width:80%;
+}
+
+.choose-destination .heading-div {
+	padding-bottom:30px;
+}
+
+/*============================================= 10.SECTION : YOUR DESTINATION END ===============================================*/
+
+/*============================================= 11.SECTION : SPECIAL OFFER START ===============================================*/
+
+.special-offer img {
+	padding:0;
+}
+
+.special-offer-div  h4{
+	padding-top:35px;
+}
+
+.special-offer-div-1 {
+	padding-top:55px;
+}
+
+.special-offer-row {
+	margin-top:30px;
+}
+
+.special-categories-col img {
+	padding-bottom:10px;
+}
+
+.creative-temp-col h3 a {
+	color:#333333;
+}
+
+/*============================================= 11.SECTION : SPECIAL OFFER END ===============================================*/
+
+/*============================================= 12.SECTION : FEATURES START ===============================================*/
+
+.hotel-features-col-1 ul {
+	padding-bottom:10px;
+	padding-left:15px;
+}
+
+.features-last  {
+	padding-bottom:0 !important;
+}
+
+.hotel-features-col-1 li {
+	display:table-cell;
+	list-style:none;
+}
+
+.hotel-features-col-1 li img {
+	padding-right:20px;
+}
+
+.hotel-features-div p {
+	margin:0 auto;
+	padding-bottom:20px;
+	padding-top:20px;
+	width:80%;
+}
+
+.hotel-features-row {
+	margin:0 auto;
+	width:90%;
+}
+
+/*============================================= 12.SECTION : FEATURES END ===============================================*/
+
+/*============================================= 13.SECTION : BENEFITS START ===============================================*/
+
+.counter-section {
+	background-image: url("../../images/1500x950.jpg");	
+}
+
+.counter-value {	
+	font-size:35px;	
+	padding:20px 0 20px 0;
+}
+
+.benefits-col h3,
+.benefits-col ul{
+	padding-bottom:5px;
+}
+
+.benefits-col li {
+	display:table-cell;
+	list-style:none;
+}
+
+.benefits-col li img {
+	padding-right:10px;
+}
+
+.benefits-col a {
+	margin-top:10px;
+}
+
+.fresh-temp-col p {
+	padding-bottom:20px;
+}
+
+.creative-para {
+	padding:5px 0 15px 0;	
+}
+
+.vacation-para{
+	padding-bottom:15px;	
+}
+
+/*============================================= 13.SECTION : BENEFITS END ===============================================*/
+
+/*============================================= 14.SECTION : TRAVEL PACKAGES START ===============================================*/
+
+.packages-col-1 h5 {
+	line-height:24px;
+	margin:0;
+}
+
+.packages-col-1 {	
+	margin-bottom:20px;
+}
+
+.packages-row-2,
+.packages-row-1 {
+	margin-top:40px;
+}
+
+.packages-col-1 p .strike-value {	
+	text-decoration:line-through;
+}
+
+.packages-col-1 {
+	display: table-row-group;
+}
+
+.packages-col-1  li{
+	display:table-cell;
+	list-style:none;
+	padding-bottom:20px;
+}
+
+.packages-col-last li {
+	padding-bottom:0;
+}
+
+.packages-col-1  h5{
+	padding-right:30px;
+}
+
+/*============================================= 14.SECTION : TRAVEL PACKAGES END ===============================================*/
+
+/*============================================= 15.SECTION : TRAVEL SCHEDULE START ===============================================*/
+
+.schedule-head {
+	background-color:#3598db;
+	height:60px;
+}
+
+.schedule-head h4 {
+	padding-top:7px;
+}
+
+.schedule-row {
+	margin:0 auto;
+	width:80%;
+}
+
+.schedule-row-4,
+.schedule-row-3,
+.schedule-row-2,
+.schedule-row-1 {		
+	padding-bottom:10px;
+	padding-top:15px;	
+}
+
+.schedule-border {
+	border-bottom:1px solid #333333;
+}
+
+.schedule-content h5 {
+	margin-top:0;
+	text-transform:capitalize;
+}
+
+.schedule-content:hover {
+	background-color:rgba(255,186,39,0.7);	
+}
+
+/*============================================= 15.SECTION : TRAVEL SCHEDULE END ===============================================*/
+
+/*============================================= 16.SECTION : TOP DESTINATION START ===============================================*/
+
+.top-destination-col {
+	background-color:#f7f7f7;
+}
+
+.top-destination-col-1.col-sm-7 {
+	padding-right:0;
+}
+
+.top-destination-col-1.col-sm-5{
+	padding-right:0;
+}
+
+.dest-place {
+	font-size:16px;
+	font-weight:600;	
+	padding-bottom:10px;
+	padding-top:50px;	
+}
+
+.dest-place 	a{
+	color:#333333;
+}
+
+.dest-second-row {
+	margin-top:30px;
+}
+
+.multi-purpose-section .heading-div {
+	padding-bottom:25px;
+}
+
+.multi-purpose-col  p{
+	margin:0 auto;
+	padding-bottom:20px;
+	width:80%;
+}
+
+
+
+.multi-div  li{
+	display:inline-block;
+	list-style:none;
+}
+
+.multi-div  li a{	
+	font-weight:bold;	
+}
+
+.multi-div  li img{
+	padding:0 5px;
+}
+
+/*============================================= 16.SECTION : TOP DESTINATION END ===============================================*/
+
+/*============================================= 17.SECTION : HAPPY TRAVEL START ===============================================*/
+
+.happy-travel {
+	padding-top:15px;
+}
+
+.happy-travel  li{
+	display:table-cell;
+	list-style:none;
+}
+
+.happy-travel  li img{
+	padding-right:10px;
+}
+
+.happy-travel  li p{
+	font-weight:bold;
+}
+
+/*HAPPY TRIP*/
+.trip-content {	
+	font-weight:600;
+	letter-spacing:0.5px;
+	padding-bottom:10px;
+}
+
+.trip-content a {
+	color:#3598db;
+}
+
+.trip-content-1 {
+	padding-bottom:10px;
+}
+
+.trip-row-2,
+.trip-row-3 {
+	margin-top:40px;
+}
+
+/*============================================= 17.SECTION : HAPPY TRAVEL END ===============================================*/
+
+/*============================================= 18.SECTION : TRAVEL ADVISOR START ===============================================*/
+
+.why-with-col img {
+	padding-bottom:10px;
+}
+
+/*GALLERY-2*/
+.portfolio-row-2 {
+	margin-top:10px;
+	
+}
+
+.portfolio-row-2,
+.portfolio-row-1 {
+	padding:0 15px 0 15px;
+}
+
+.portfolio-col {
+	padding:0 5px 0 5px;
+}
+
+/*TEAM LUNCH*/
+.team-lunch-para  {
+	padding-bottom:15px;
+}
+
+.team-lunch-col h3 {
+	padding-bottom:5px;
+}
+
+/*ADVISOR*/
+.advisor-col {
+	padding-bottom:10px;
+}
+
+.advisor-col h4 {
+	padding-top:10px;
+}
+
+.advisor-col  >a > h4{
+	position: relative;
+	z-index: 2;
+	margin: auto;
+	vertical-align: middle;
+	width:100%; 
+}
+
+.advisor-col:hover   {
+	background-color:#3598db !important;	
+}
+
+/*============================================= 18.SECTION : TRAVEL ADVISOR END ===============================================*/
+
+/*============================================= 19.SECTION : PRICE TABLE START ===============================================*/
+
+.price-table-border {
+	border-bottom:1px solid #3598db;
+	border-left:1px solid #3598db;
+	border-right:1px solid #3598db;
+}
+
+.price-bg {
+	background-color:#3598db;
+	padding:20px 0;
+}
+
+.price-value {	
+	font-size:30px;
+}
+
+.pricing-content {
+	padding:30px 0;	
+}
+
+.pricing-content ul {
+	padding-left:40px;
+	padding-bottom:10px;
+}
+
+.pricing-content li {
+	display:table-cell;
+	list-style:none;
+}
+
+.pricing-content li  p{
+	padding-right:20px;
+}
+
+.pricing-content li  img{
+	padding-right:10px;
+}
+
+.price-table-col>.price-table-border>.price-bg>.pricing-btn {
+	position: relative;
+	z-index: 2;
+	margin: auto;
+	vertical-align: middle;
+	width:100%; 
+}
+
+.price-table-col .pricing-btn .pt-btn {
+	position: relative;
+	z-index: 2;
+	margin: auto;
+	vertical-align: middle;
+	width:100%; 
+}
+
+.price-table-col:hover>.price-table-border {	
+	border-bottom:1px solid #ffba27;
+	border-left:1px solid #ffba27;
+	border-right:1px solid #ffba27;
+}
+
+.price-table-col:hover>.price-table-border>.price-bg {	
+	background-color:#ffba27;
+}
+
+.price-table-col:hover .pricing-btn  .pt-btn{	
+	background-color:#3598db !important;
+	color:#ffffff !important;;
+}
+
+.pricing-btn {
+	padding-top:10px;
+}
+
+/*============================================= 19.SECTION : PRICE TABLE END ===============================================*/
+
+/*============================================= 20.SECTION : NEWS START ===============================================*/
+
+.resorts-col p {
+	padding-bottom:20px;	
+}
+
+.resorts-row-2 {
+	margin-top:40px;
+}
+
+/*NEWS*/
+.latest-news-col {	
+	padding-bottom:20px;
+}
+
+.latest-news-col img,
+.latest-news-col p {
+	padding-bottom:10px;
+}
+
+.latest-news-padding {
+	padding:0 20px;
+}
+
+.news-shadow {
+	display:inline-block;
+	border:0;  
+	position: relative;
+	-webkit-transition: all .2s ease-in;
+	-webkit-transform: scale(1); 
+	-ms-transition: all .2s ease-in;
+	-ms-transform: scale(1); 
+	-moz-transition: all .2s ease-in-out;
+	-moz-transform: scale(1);
+	transition: all .2s ease-in-out;
+	transform: scale(1);  
+}
+
+.news-shadow:hover {
+	box-shadow: 0px 0px 10px #000000;
+    z-index: 2;
+    -webkit-transition: all .2s ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all .2s ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all .2s ease-in-out;
+    -moz-transform: scale(1.1);
+    transition: all .2s ease-in-out;
+    transform: scale(1.1);	
+}
+
+.latest-news-div-2 {
+	box-shadow: 0 8px 31px 0 rgba(0,0,0,.1);	
+}
+
+/*TESTIMONIAL*/
+.testimonial-content {
+	margin:0 auto;
+	padding-bottom:20px;
+	padding-top:20px;
+	width:75%;
+}
+
+.testi-author {
+	margin:0 auto;
+	width:210px;
+}
+
+.testi-author li {
+	display:table-cell;
+	list-style:none;
+}
+
+.testi-author li  img{
+	padding-right:20px;
+}
+
+/*TOP RATE TOUR*/
+.rate-tour-col p {	
+	font-size:20px;
+}
+
+.star-1 {	
+	padding:20px 0 5px 0;
+}
+
+.star-1  li{	
+	display:inline-block;	
+	list-style:none;
+	margin-right:5px;
+}
+
+.rate-tour-col  img{
+	margin:0 auto;
+}
+
+/*============================================= 20.SECTION : NEWS END ===============================================*/
+
+/*============================================= 21.SECTION : SUBSCRIBE START ===============================================*/
+
+.subscribe-div input {
+	height:40px;
+	margin-bottom:30px;
+}
+
+.subscribe-section {
+	background-image: url("../../images/1500x500.jpg");	
+	
+}
+
+/* Subscribe error msg */
+
+#mc_embed_signup {
+    clear: left;    
+}
+
+#mc-embedded-subscribe {
+    margin: 0 0 0em 0 !important;
+}
+
+#ResultMsg {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#SuccessMsg {
+    color:#33cc33;   
+}
+
+#FailureMsg {
+    color:#ff6666;   
+}
+
+#messageDiv {
+    margin-top: 20px;	
+    text-align: center;
+	width: 100%;
+}
+
+#SuccessMsg,
+#FailureMsg,
+#sucessMessage,
+#failMessage {   
+    font-weight: bold;    
+    display: none;
+}
+
+#sucessMessage {
+    color: Green;   
+}
+
+#failMessage {
+    color:#ff0000;    
+}
+
+.place_error::-webkit-input-placeholder {
+    color:#ff0000;
+    text-transform: none;
+}
+
+.place_error::-moz-placeholder {
+    color:#ff0000;
+    text-transform: none;
+}
+
+.place_error:-moz-placeholder {
+	color:#ff0000;
+    text-transform: none;
+}
+
+.place_error:-ms-input-placeholder {
+	color:#ff0000;
+    text-transform: none;
+}
+
+.errorClass {
+    border: 1px solid red !important;
+    box-shadow: 0px 0px 4px rgba(255, 80, 80, 0.3) !important;
+}
+
+.hoverable {
+	box-shadow: 0;
+	transition: box-shadow .55s;  
+}
+
+.hoverable:hover  {
+	box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+	transition: box-shadow .45s;  
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.owl-theme .owl-controls .owl-page span {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: #000;
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0;
+    background-position-y: 0;
+    background-repeat: repeat;
+    background-size: auto auto;
+}
+
+.owl-theme .owl-controls .owl-page.active span, 
+.owl-theme .owl-controls.clickable .owl-page:hover span { 
+    background-color: #ffba27;
+   
+}
+/*============================================= 21.SECTION : SUBSCRIBE START ===============================================*/
+
+/*============================================= 22.SECTION : FOOTER START ===============================================*/
+
+.footer-section-1 {
+	background-color:#000000;
+}
+
+.footer-section-3 {
+	background-color:#f7f7f7;
+}
+
+.footer-div-3 li,
+.footer-div-2 li,
+.social-icons li {
+	display:inline-block;
+	list-style:none;
+	margin:0 10px 0 0;	
+}
+
+.address-1 li{
+	display:table-cell;
+	list-style:none;	
+}
+
+.address-1 li img{
+	padding-right:10px;
+}
+
+.social-icons {
+	padding:10px 0;
+}
+
+.footer-row-2  { 
+	width:80%;
+	margin:0 auto;
+}
+
+.address-3 {	
+	padding-top:10px;
+}
+
+.separator-3,
+.separator-2,
+.separator {	
+	margin-bottom:30px;
+	margin-top:30px;
+}
+
+.separator {
+	border-bottom:1px solid #dddddd;
+}
+
+.separator-2 {
+	border-bottom:1px solid #cccccc;	
+}
+
+.separator-3 {
+	border-bottom:1px solid #666666;	
+}
+
+/*CONTACT US*/
+
+.contact-frame {
+	border:0;
+	height:430px;
+	width:100%;
+}
+
+.contact-col p {	
+	padding-bottom:10px;
+}
+
+.contact-div-2,
+.contact-div-1 {
+	padding-bottom:10px;
+}
+
+.contact-div-3 .last-para {
+	padding-bottom:0;
+}
+
+.contact-us-div-3 ul {	
+	padding-top:10px;
+}
+
+.contact-us-div-3 li {
+	display:inline-block;
+	list-style:none;
+	padding-right:10px;
+}
+
+.contact-col-1 h5 {
+	padding-bottom:5px;
+}
+
+.contact-us-div-2,
+.contact-us-div-1 {
+	padding-bottom:20px;
+}
+
+.form-div input {
+	height:40px;
+}
+
+ 
+.form-div  {
+	padding-bottom:20px;
+}
+
+.form-div-1 {
+	padding-bottom:15px;
+}
+
+.contact-btn {
+	padding-top:10px;
+}
+
+.contact-col-2 h5 {
+	padding-bottom:10px;
+}
+
+
+#mc_embed_signup {
+    clear: left;    
+}
+
+#mc-embedded-subscribe {
+    margin: 0 0 0em 0 !important;
+}
+
+#ResultMsg {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#SuccessMsg {
+    color:#33cc33;   
+}
+
+#FailureMsg {
+    color:#ff6666;   
+}
+
+#messageDiv {
+    margin-top: 20px;	
+    text-align: center;
+	width: 100%;
+}
+
+#SuccessMsg,
+#FailureMsg,
+#sucessMessage,
+#failMessage {   
+    font-weight: bold;    
+    display: none;
+}
+
+#sucessMessage {
+    color: Green;   
+}
+
+#failMessage {
+    color:#ff0000;    
+}
+
+.place_error::-webkit-input-placeholder {
+    color:#ff0000;
+    text-transform: none;
+}
+
+.place_error::-moz-placeholder {
+    color:#ff0000;
+    text-transform: none;
+}
+
+.place_error:-moz-placeholder {
+	color:#ff0000;
+    text-transform: none;
+}
+
+.place_error:-ms-input-placeholder {
+	color:#ff0000;
+    text-transform: none;
+}
+
+.errorClass {
+    border: 1px solid red !important;
+    box-shadow: 0px 0px 4px rgba(255, 80, 80, 0.3) !important;
+}
+
+.form-div input.error,
+.form-div-1  textarea.error {
+    border-color: #ff0000 !important;   
+}
+
+.form-div-1 label,
+.form-div placeholder,
+.form-div label {
+	color:#ff0000;	
+	font-size: 12px;
+    margin-bottom:0;
+}
+
+.footer-holiday {
+	margin:0 auto;
+	width:80%;
+}
+
+/*============================================= 22.SECTION : FOOTER START ===============================================*/
+
+/*============================================= 23.SECTION : MEDIA QUERIES START ===============================================*/
+
+@media only screen and (min-width: 250px) and (max-width: 767px) {
+	.navbar-toggle.collapsed {
+		margin-top:18px;
+	}
+	.menu {
+		padding-bottom:5px;		
+	}	
+	.navbar-default .navbar-nav > li > a {
+		display:inline-block;
+	}	
+	.responsive-top-space {
+		margin-top:30px;
+	}	
+	.gallery-img {
+		padding-bottom:30px;
+	}	
+	.services-row-2 {
+		margin-top:0;
+	}
+	.awesome-col {
+		margin:0 auto;
+		width:265px;
+	}	
+	.special-offer {
+		text-align:center;
+	}	
+	.special-offer img {
+		margin:0 auto;
+		text-align:center;
+	}	
+	.special-offer-div h4 {
+		padding-top: 5px;
+	}	
+	.special-offer-div-1 {
+		padding-top: 15px;
+	}
+	.special-offer-row {
+		margin-top: 40px;
+	}	
+	.hotel-features-col-2 {
+		padding-top:25px;
+	}	
+	.contact-us,
+	.contact-col-2,
+	.team-vacation-col,
+	.packages-col,
+	.creative-temp-col,
+	.benefits-col {
+		margin-top: 30px;
+	}	
+	.schedule-border,
+	.schedule-head {
+		display:none;
+	}	
+	.schedule-heading {
+		background-color:#3598db;
+		padding:20px 15px;
+	}
+	.schedule-heading h5 {
+		color:#ffffff;
+		margin:0;
+		text-align:center;
+	}	
+	.schedule-duration {  
+		padding-top:10px;   
+	}	
+	.schedule-duration-1 {
+		color:#666666;
+		font-weight:normal;
+		display:inline-flex;
+	}	
+	.schedule-duration-1::before {
+		content: "Duration:";
+		padding-right:10px;
+	}		
+	.schedule-program::before {
+		content: "Program:";
+		font-size:16px;
+		letter-spacing:1px;
+		padding-right:10px;
+	}	
+	.schedule-program {		
+		display:inline-flex;
+		padding-bottom:10px;
+		padding-top:10px;
+	}	
+	.schedule-responsive-1 {
+		border-top:1px solid #3598db;
+	}
+	.schedule-responsive {
+		border-left:1px solid #3598db;
+		border-bottom:1px solid #3598db;
+		border-right:1px solid #3598db;
+	}
+	.dest-second-row {
+		margin:0;		
+	}
+	.multi-div li {
+		display:list-item;
+		line-height:30px;
+	}
+	.multi-div li img {
+		display:none;
+	}
+	.multi-div {
+		margin:0;
+	}		
+	.section-padding.team-vacation-col {
+		padding-top:0;
+	}	
+	.contact-col,
+	.fresh-temp-col,
+	.resorts-col,
+	.team-lunch-col,
+	.trip-col  {
+		margin-top: 20px;
+	}	
+	.email-2,
+	.address-2,
+	.latest-news-col-1,
+	.price-table-col-1 {
+		padding-bottom:30px;
+	}	
+	
+	.rate-tour-col {
+		margin:0 auto;
+		text-align:center;
+	}
+	.rate-tour-col-1 {
+		padding-top:30px;
+	}
+	.contact-btn,
+	.contact-col-2 h5 {
+		text-align:center;
+	}	
+	.services-col.responsive-top-space,
+	.services-col.responsive-top-space-2 {
+		margin-top:30px;
+	}
+	.destination-col h4 {
+		text-align:left;
+	}
+	.effects .img {		
+		margin-bottom:30px;
+	}
+	.effects .img.last-img {
+		margin-bottom:0;		
+	}
+	.happy-travel-div {
+		padding-top:0;
+	}	
+	.schedule-row-4,
+	.schedule-row-3,
+	.schedule-row-2 {		
+		padding:0;
+		margin-top:30px;	
+	}
+	.schedule-row-1 {		
+		padding:0;		
+	}
+	.contact-us,
+	.footer-travel {
+		text-align:center;
+	}
+	.address-1 {
+		margin:0 auto;
+		width:290px;
+	}	
+	.multi-purpose-col p,
+	.testimonial-content,
+	.slider-image-1 p,
+	.slider-image-2 p,
+	.slider-image-3 p{
+		width:100%;
+	}
+		
+	.footer1-img {
+		padding-bottom:30px;
+	}
+	
+	.footer1-img img {
+		margin:0 auto;
+	}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 480px) {	
+	
+	.header-div-1 p,
+	.header-div-2 p,
+	.header-div-3 p {
+		width:100%;
+	}
+	
+	.offer-col {
+		margin:0 auto;
+		width:260px;
+	}	
+	
+	.top-destination-col {
+		margin:0 auto 30px auto;
+		width:100%;
+	}
+	.top-destination-col-last {
+		margin:0 auto 0 auto;
+	}
+	.special-categories-col {
+		margin:0 auto;
+		width:260px;
+	}
+	.special-categories-col.responsive-top-space {
+		margin-top:30px;
+	}
+	.portfolio-row-1 {
+		margin:0 auto;
+		width:100%;
+		padding-left:3px;
+		padding-right:3px;
+	}
+	.portfolio-row-2 {
+		margin:0 auto;
+		width:270px;
+	}
+	
+}
+
+@media only screen and (min-width: 250px) and (max-width: 450px) { 	
+	
+	.col-xs-6.col-sm-3.counter-col,
+	.col-xs-6.col-sm-6.special-offer,
+	.services-col .col-xs-10.col-sm-9,
+	.services-col .col-xs-2.col-sm-2  {
+		margin:0 auto;
+		text-align:center;
+		width:100%;
+	}
+	.services-col .col-xs-2.col-sm-2  img {
+		padding-bottom:20px;
+	}
+	h1 {
+		font-size:30px;
+	}
+	
+	.col-xs-6.col-sm-3.destination-col {
+		margin:0 auto;		
+		width:100%;
+	}
+	
+	.destination-row {
+		width:70%;
+	}
+	.destination-space-1 {
+		padding-bottom:15px;
+	}
+	.counter-col-2,
+	.special-offer-1 {
+		padding-top:40px;
+	}
+	.why-with-col {
+		margin:0 auto;		
+		width:100%;
+	}
+	.why-with-col-2{
+		padding-top:30px;
+	}	
+	.portfolio-col {
+		margin:0 auto;		
+		width:100%;
+		text-align:center;
+	}	
+	.portfolio-col  img{	
+		margin:0 auto;	
+		text-align:center;
+	}	
+	.portfolio-col-4,
+	.portfolio-col-5,
+	.portfolio-col-6,
+	.portfolio-col-2 {
+		padding-top:10px;
+	}
+	.latest-news-col,
+	.price-table-col {
+		margin:0 auto;
+		width:280px;
+	}
+	.pricing-content ul {
+		padding-left:10px;
+	}
+	.special-offer {
+		width:100%;
+	}	
+}
+
+
+@media only screen and (min-width: 451px) and (max-width: 480px) { 	
+	.counter-col-1 {
+		padding-top:40px;
+	}
+	.why-with-col-1 {
+		padding-top:30px;
+	}
+	.latest-news-col,
+	.price-table-col {
+		margin:0 auto;
+		width:360px;
+	}
+}
+
+@media only screen and (min-width: 250px) and (max-width: 400px) { 	
+	.dest-place {
+		padding-top:30px;
+	}
+	.address-1 {
+		margin:0 auto;
+		text-align:left;
+		width:100%;
+	}
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) { 		
+	.gallery-div {
+		margin:0 auto;
+		width:360px;
+	}	
+	.gallery-div .col-sm-4.col-xs-6 {		
+		margin:0 auto;
+		width:360px;
+	}	
+	.offer-col {
+		margin:0 auto;
+		width:360px;
+	}	
+	.destination-space-2 {
+		padding-bottom:15px;
+	}	
+	.counter-col-1 {
+		padding-top:40px;
+	}	
+	.packages-col-1 {		
+		width:480px;
+	}
+	.top-destination-col {
+		margin:0 auto 30px auto;
+		width:450px;
+	}
+	.top-destination-col-last {
+		margin:0 auto 0 auto;
+	}
+	.why-with-col-1 {
+		padding-top:30px;
+	}
+	.latest-news-col,
+	.price-table-col {
+		margin:0 auto;
+		width:360px;
+	}
+	.special-categories-col {
+		margin:0 auto;
+		width:360px;
+	}
+	.special-categories-col.responsive-top-space {
+		margin-top:30px;
+	}
+	
+	
+	.portfolio-row-1 {
+		margin:0 auto;
+		width:420px;
+	}
+	.portfolio-row-2 {
+		margin:0 auto;
+		width:270px;
+	}
+}
+
+
+@media only screen and (min-width: 620px) and (max-width: 767px) { 	
+	.col-xs-6.col-sm-3 .advisor-col {
+		margin:0 auto;
+		text-align:center;
+		width:265px;
+	}
+	.advisor-row {
+		margin:0 auto;
+		width:600px;
+	}
+	.advisor-col-1 {
+		padding-top:30px;
+	}
+	
+}
+
+@media only screen and (min-width: 250px) and (max-width: 619px) { 	
+	.col-xs-6.col-sm-3.advisor-div {
+		margin:0 auto;
+		text-align:center;
+		width:100%;
+	}
+	.advisor-col {
+		margin:0 auto;
+		text-align:center;
+		width:265px;
+	}
+	.advisor-div-1 {
+		padding-bottom:40px;
+	}
+	.destination-row {
+		width:100%;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 	
+	
+	.col-sm-4.best-offer {
+		padding:0 5px;
+	}
+	.services-row-2 {
+		margin-top:0;
+	}	
+	.responsive-top-space-2 {
+		margin-top:30px;
+	}	
+	.awesome-row {
+		margin:0 auto;
+		width:590px;
+	}
+	.awesome-col {
+		margin:0 auto;
+		width:265px;
+	}		
+	.responsive-top-space .awesome-col-4,
+	.responsive-top-space .awesome-col-3 {
+		margin-top:30px;
+	}	
+	.destination-row {
+		width:100%;
+	}	
+	.special-offer-row-2,
+	.special-offer-row-1 {
+		margin:0 auto;
+		width:650px;	
+	}	
+	.special-offer-row-2 .special-offer-2,
+	.special-offer-row-2 .special-offer-1,
+	.special-offer-row-1 .special-offer-1 {
+		padding-top:30px;
+	}	
+	.hotel-features-col-1 {
+		margin:0 auto;
+		padding-bottom:20px;
+		width:400px;
+	}	
+	.col-sm-pull-6.fresh-temp-col,
+	.col-sm-push-6.fresh-temp-img,
+	.col-sm-5.resorts-col-img,
+	.col-sm-7.resorts-col,
+	.col-sm-6.team-lunch-img,
+	.col-sm-6.team-lunch-col,
+	.col-sm-6.trip-col-img,
+	.col-sm-6.trip-col,
+	.col-sm-6.col-sm-push-6.team-vacation-img,
+	.col-sm-6.col-sm-pull-6.team-vacation-col,
+	.schedule-row,	
+	.col-sm-7.packages-col-img,
+	.col-sm-6.creative-temp-col,
+	.col-sm-6.creative-temp-img,
+	.col-sm-5.benefits-col,
+	.col-sm-7.benefits-col-img {
+		width:100%;
+	}	
+	.benefits-col {
+		margin-top:30px;
+	}	
+	.col-sm-pull-6.fresh-temp-col,
+	.col-sm-7.resorts-col,
+	.col-sm-6.team-lunch-col,
+	.col-sm-6.trip-col,
+	.col-sm-6.col-sm-pull-6.team-vacation-col,
+	.packages-col,
+	.creative-temp-col {
+		padding-top:30px;
+	}	
+	.col-sm-pull-6.fresh-temp-col,
+	.col-sm-push-6.fresh-temp-img img,
+	.col-sm-5.resorts-col-img img,
+	.col-sm-7.resorts-col,
+	.col-sm-6.team-lunch-col,
+	.col-sm-6.team-lunch-img img,
+	.col-sm-6.trip-col-img img,
+	.col-sm-6.col-sm-push-6.team-vacation-img img,
+	.col-sm-6.col-sm-pull-6.team-vacation-col,
+	.col-sm-6.creative-temp-col,
+	.col-sm-6.creative-temp-img img {
+		margin:0 auto;
+		text-align:center;
+	}	
+	.col-sm-push-6.fresh-temp-img,
+	.col-sm-push-7.resorts-col-img,
+	 .col-sm-push-6.team-vacation-img {
+		left:0;
+	 }	 
+	 .col-sm-pull-6.fresh-temp-col,
+	 .col-sm-pull-5.resorts-col,
+	.col-sm-pull-6.team-vacation-col {
+		right:0;
+	}	
+	.dest-second-row {
+		margin:0;
+	}
+	.dest-second-row-1 {
+		margin-top:30px;
+	}	
+	.happy-travel {
+		margin:0 auto;
+		width:400px;
+	}	
+	.pricing-content ul {
+		padding-left:20px;
+	}	
+	.col-sm-5.packages-col  {
+		clear:both;
+		float:none;
+		margin:30px auto 0 auto !important;
+		width:410px !important;	
+	}
+	.happy-travel-div {
+		padding-top:0;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+	.dest-place {
+		padding-top:30px;
+	}
+	.top-destination-col-1.col-sm-5 {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.special-offer-div h4 {
+		padding-top: 15px;
+	}
+	.special-offer-div-1 {
+		padding-top: 30px;
+	}
+	.happy-travel-div {
+		padding-bottom:10px;
+		padding-top:40px;
+	}
+}
+
+/*============================================= 23.SECTION : MEDIA QUERIES END ===============================================*/
