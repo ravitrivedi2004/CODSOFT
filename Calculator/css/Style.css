@@ -1,0 +1,82 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  
+  .calculator {
+    width: 350px;
+    border-radius: 25px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1);
+    overflow: hidden;
+    height: 450px;
+  }
+  
+  .display {
+    background-color: #222;
+    color: #fff;
+    text-align: right;
+    padding: 30px;
+    font-size: 36px;
+    height: 70px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 10px;
+    background-color: #333;
+    
+  }
+  
+  .button {
+    background-color: #444;
+    color: #fff;
+    font-size: 26px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .empty {
+    background-color: #444;
+    color: #fff;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: background-color 0.2s;
+  }
+  
+  .button:active {
+    background-color: #555;
+  }
+  
+  .button.operator {
+    background-color: #f39c12;
+    color: #ffffff;
+  }
+
+  .button.equalto{
+    background-color: #28a745;
+    color: #ffffff;
+  }
+
+  .button.operator:active {
+    background-color: #e67e22;
+  }
+
+  .button.equalto:active {
+    background-color: #218838;
+  }
+
+  
+  
+  
